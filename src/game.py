@@ -1,6 +1,8 @@
 import pygame
 pygame.init()
 
+clock = pygame.time.Clock()
+
 from src.variables import WHITE, BLACK, BLUE, GREEN, RED
 from src.button import Button
 
@@ -87,12 +89,13 @@ class Game:
             else:
                 self.window.fill(WHITE)
                 if not self.pause: 
-                    pygame.display.set_caption("jeu de la vie")
+                    pygame.display.set_caption(f"jeu de la vie : {clock.get_fps()}")
                     self.update()
                 else:
-                    pygame.display.set_caption("jeu de la vie (pause)")
+                    pygame.display.set_caption(f"jeu de la vie (pause) : {clock.get_fps()}")
                 self.draw_grid()
             pygame.display.update()
+            clock.tick(60)
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
