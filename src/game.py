@@ -38,6 +38,10 @@ class Game:
         rect = pygame.Rect(0, 0, self.w, self.h)
         pygame.draw.rect(self.window, WHITE, rect)
 
+    
+    def delay(time = 1) ->None:
+        pass
+    
     def update(self):
         change = []
         for i in range(self.n_rows):
@@ -55,6 +59,8 @@ class Game:
             y = rec[0][1]
             b = rec[1]
             self.rect_group[x][y][1] = b 
+        
+        
                 
                     
     def is_possible(self, a):
