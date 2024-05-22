@@ -12,7 +12,7 @@ Ce projet implémente le célèbre Jeu de la Vie de John Conway en Python. Le Je
 ## Prérequis
 
 - Python 3.x
-- Bibliothèque `Pygame` (incluse dans les installations standard de Python)
+- Bibliothèque `Pygame` (pip install pygame)
 
 ## Installation
 
