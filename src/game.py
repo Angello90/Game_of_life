@@ -8,13 +8,13 @@ from src.button import Button
 
 class Game:
     def __init__(self) -> None:
-        self.w = 1200
-        self.h = 1200
+        self.w = 1300
+        self.h = 1300
         self.window = pygame.display.set_mode((self.w, self.h))
         pygame.display.set_caption("jeu de la vie")
         self.running = True
-        self.n_cols = 60
-        self.n_rows = 60
+        self.n_cols = 100
+        self.n_rows = 100
         self.cols = self.h // self.n_cols
         self.rows = self.w // self.n_rows
         self.rect_group = [[ 0 for _ in range(self.n_cols)] for _ in range(self.n_rows)]
@@ -101,7 +101,7 @@ class Game:
                     pygame.display.set_caption(f"jeu de la vie (pause) : {clock.get_fps()}")
                 self.draw_grid()
             pygame.display.update()
-            clock.tick(60)
+            clock.tick(240)
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
