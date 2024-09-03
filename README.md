@@ -1,24 +1,24 @@
-# Jeu de la Vie (Game of Life)
+# Game of Life
 
-Ce projet implémente le célèbre Jeu de la Vie de John Conway en Python. Le Jeu de la Vie est un automate cellulaire où chaque cellule peut vivre, mourir ou naître en fonction de règles simples.
+This project implements the famous Game of Life by John Conway in Python. The Game of Life is a cellular automaton where each cell can live, die, or be born based on simple rules.
 
-## Fonctionnalités
+## Features
 
-- Simulation du Jeu de la Vie sur une grille de taille variable
-- Interface graphique avec `Pygame`
-- Personnalisation des règles du jeu
-- Possibilité de charger des configurations initiales depuis des fichiers
+- Simulation of the Game of Life on a variable-sized grid
+- Graphical interface using `Pygame`
+- Customization of the game rules
+- Ability to load initial configurations from files
 
-## Prérequis
+## Prerequisites
 
 - Python 3.x
-- Bibliothèque `Pygame` (pip install pygame)
+- `Pygame` library (pip install pygame)
 
 ## Installation
 
-Clonez le dépôt et accédez au répertoire du projet :
+Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/yhassanige1/Jeu_de_la_vie.git
-cd Jeu_de_la_vie
+git clone https://github.com/Angello90/Game_of_life.git
+cd Game_of_life
 ```
