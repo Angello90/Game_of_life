@@ -21,4 +21,6 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/Angello90/Game_of_life.git
 cd Game_of_life
+pip install -r requirements.txt
+run.bat
 ```
