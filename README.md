@@ -12,7 +12,7 @@ This project implements the famous Game of Life by John Conway in Python. The Ga
 ## Prerequisites
 
 - Python 3.x
-- `Pygame` library (pip install pygame)
+- `Pygame` library (pip install -r requirements.txt)
 
 ## Installation
 
